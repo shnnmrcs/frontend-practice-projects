@@ -1,3 +1,3 @@
 # FrontendMentor
 
-This projects are created to practice my skills in front end developing.
+This projects are created to practice my skills in frontend developing.
