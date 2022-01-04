@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
+}
+
+.container {
+  width: 90%;
+  max-width: 650px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background-color: #fff;
+  border: 0;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.wrapper > div {
+  padding: 20px;
+}
+
+.wrapper .pane-one {
+  width: 100%;
+}
+
+.wrapper .pane-one h2 {
+  color: #2ab2af;
+  margin-bottom: 25px;
+}
+
+.wrapper .pane-one h3 {
+  font-size: 18px;
+  color: #c0df34;
+  margin-bottom: 15px;
+}
+
+.wrapper .pane-one p {
+  color: #98a6bd;
+  line-height: 30px;
+}
+
+.wrapper .pane-two {
+  width: 100%;
+  color: #fff;
+  background-color: #2ab2af;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 767px) {
+  .wrapper .pane-two .price-wrap {
+    margin: 20px 0 30px;
+  }
+}
+
+.wrapper .pane-two .price-wrap .price {
+  margin-bottom: 5px;
+}
+
+.wrapper .pane-two .price-wrap .price span:first-child {
+  font-size: 32px;
+  vertical-align: middle;
+  padding-right: 10px;
+  font-weight: 700;
+}
+
+.wrapper .pane-two .price-wrap .price span:last-child {
+  color: #e5eff5;
+}
+
+.wrapper .pane-two .btn-signup {
+  background-color: #c0df34;
+  color: #fff;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px;
+  border: 1px solid #2ab2af;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
+}
+
+.wrapper .pane-two .btn-signup:hover {
+  border-color: #c0df34;
+  background-color: #2ab2af;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.wrapper .pane-two .btn-signup:active {
+  -webkit-transform: scale(0.99);
+          transform: scale(0.99);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrapper .pane-three {
+  width: 100%;
+  background-color: #4bbebc;
+}
+
+.wrapper .pane-three h3 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.wrapper .pane-three ul {
+  list-style: none;
+  color: #e5eff5;
+  font-size: 14px;
+}
+
+.wrapper .pane-three ul li {
+  line-height: 20px;
+}
+
+@media (min-width: 768px) {
+  .wrapper > div {
+    padding: 40px;
+  }
+  .wrapper .pane-two {
+    width: 50%;
+  }
+  .wrapper .pane-three {
+    width: 50%;
+  }
+}
+
+footer {
+  padding: 10px;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
