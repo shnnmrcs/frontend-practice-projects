@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.cards-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: -20px;
+}
+
+.cards-wrapper .panel {
+  width: 100%;
+}
+
+.cards-wrapper .panel .card {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.cards-wrapper .panel .card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 8px;
+  width: 100%;
+}
+
+.cards-wrapper .panel .card-red::after {
+  background-color: #ea5353;
+}
+
+.cards-wrapper .panel .card-cyan::after {
+  background-color: #45d3d3;
+}
+
+.cards-wrapper .panel .card-orange::after {
+  background-color: #fcaf4a;
+}
+
+.cards-wrapper .panel .card-blue::after {
+  background-color: #549ef2;
+}
+
+@media (min-width: 768px) {
+  .cards-wrapper {
+    margin: 0 -15px -30px -15px;
+  }
+  .cards-wrapper .panel {
+    width: 33.33%;
+    padding: 0 15px;
+  }
+  .cards-wrapper .panel .card {
+    padding: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1401px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+footer {
+  padding: 10px;
+}
+
+footer .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+footer .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */

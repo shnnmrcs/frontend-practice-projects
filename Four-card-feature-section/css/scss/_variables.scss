@@ -1,0 +1,20 @@
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+
+$very-dark-blue: hsl(180, 62%, 55%);
+$greyish-blue: hsl(34, 97%, 64%);
+$very-light-grey: hsl(212, 86%, 64%);
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+$body-font-family: 'Poppins', sans-serif;
+
+$body-font-size: 15px;
+
+$body-font-weights: (
+    "extralight": 200,
+    "regular": 400,
+    "semibold": 600
+);
